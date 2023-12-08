@@ -11,8 +11,7 @@ function NewsItem({ title, description, url, imageUrl, author }) {
             ? "https://ichef.bbci.co.uk/news/1024/branded_news/16C1C/production/_130021239_sunday_telegraph_alamy.jpg"
             : imageUrl
         }
-        height={150}
-        className="card-img-top"
+        className="w-full md:h-[150px] bg-cover bg-center h-[170px]"
         alt="..."
       />
       <div className='font-bold mt-1'>
